@@ -1,12 +1,13 @@
 # ESP32 Quadcopter Flight Controller
 
-A work-in-progress **quadcopter flight controller** using an **ESP32**, with IMU, barometer, and magnetometer integration. Controller and quadcopter communicate using the **ESP-NOW protocol**.  
+A work-in-progress **quadcopter flight controller** using an **ESP32**, with IMU, barometer, and magnetometer integration. Controller and quadcopter communicate using the **ESP-NOW protocol**. Using PID control loops to achieve stable flight. 
 
 ---
 
 ## Features
 - 4-motor control with RS2205 2300 kV motors and LittleBee 30A ESCs  
 - Wireless communication via **ESP-NOW** between custom controller and quadcopter  
+- Custom 3D printed quadcopter frame and controller
 
 ---
 
