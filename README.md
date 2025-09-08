@@ -2,12 +2,6 @@
 
 A work-in-progress **quadcopter flight controller** using an **ESP32**, with IMU, barometer, and magnetometer integration. Controller and quadcopter communicate using the **ESP-NOW protocol**. Using PID control loops to achieve stable flight. 
 
-![Quadcopter](quadcopter_1.jpg)
-[](quadcopter_2.jpg)
-
-![Controller](controller_1.jpg)
-[](controller_2.jpg)
-
 ---
 
 ## Features
@@ -26,3 +20,10 @@ A work-in-progress **quadcopter flight controller** using an **ESP32**, with IMU
 | BMP390 | Barometer for altitude |
 | QMC5883 | Magnetometer for heading |
 | ESP32 | Flight controller and controller board |
+
+
+![Quadcopter](quadcopter_1.jpg)
+![](quadcopter_2.jpg)
+
+![Controller](controller_1.jpg)
+![](controller_2.jpg)
